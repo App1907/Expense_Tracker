@@ -71,6 +71,7 @@ const AddExpenseForm = ({ onClose, editingExpense }: { onClose: () => void; edit
 const styles = StyleSheet.create({
   container: {
     padding: 16,
+    marginTop: 50,
   },
   input: {
     borderWidth: 1,
@@ -78,6 +79,8 @@ const styles = StyleSheet.create({
     borderRadius: 4,
     padding: 8,
     marginBottom: 16,
+    backgroundColor: '#8EA3A6',
+    marginTop: 20,
   },
 });
 
